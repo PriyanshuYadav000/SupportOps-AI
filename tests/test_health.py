@@ -11,6 +11,6 @@ def test_health_endpoint():
     assert response.status_code == 200
     assert response.json() == {
         "status": "healthy",
-        "service": "supportops-ai",
-        "version": "0.1.0",
+        "service": "SupportOps AI",
+        "version": "0.2.0",
     }
